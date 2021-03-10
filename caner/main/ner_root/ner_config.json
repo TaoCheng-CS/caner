@@ -1,0 +1,1 @@
+{"vec_type": "bert", "vec_path": "embedding/chinese_L-12_H-768_A-12", "embedding_size": 768, "unit_num": 256, "label_list": ["O", "B-ORG", "I-ORG", "B-PER", "I-PER", "B-LOC", "I-LOC", "ORG-A", "PER-A", "LOC-A", "ORG-B", "PER-B", "LOC-B", "ORG-C", "PER-C", "LOC-C", "ORG-D", "PER-D", "LOC-D"], "feature_extractor": "idcnn", "seq_length": 64}
