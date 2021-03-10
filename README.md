@@ -104,3 +104,14 @@ You can customize the parameter by creating a new instance of **NetConfig()**:
 |  lambda_value | float |0.25 | control the scale of negative gradient in GRL |
 |  cluster_csv_list | list | None | List of  filename,  each of which contains the entity's cluster label |
 
+## Final results
+
+|   method \F1score %     |  FIND  |   Lattice  | WeiBo |MSRA|
+| ----------------- | ------ | ---------- | ------- |-----|
+|Bi-LSTM|55.91|71.91|43.84|67.21|
+|ID-CNN|56.73|72.27|43.75|67.54|
+|Flair|69.59|73.68|49.77|71.47|
+|Trans+Flair|70.13|73.96|49.52|72.03|
+|BERT|87.53|84.29|60.80|84.06|
+|Trans+BERT|87.27|84.55|60.45|84.30|
+|CANER|**91.12**|**86.98**|**63.49**|**87.49**|
